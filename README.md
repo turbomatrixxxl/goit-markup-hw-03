@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Primul proiect idividual
+# goit-markup-hw-03
+Al treilea proiect idividual
