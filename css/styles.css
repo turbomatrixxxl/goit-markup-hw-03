@@ -32,14 +32,14 @@ body {
 }
 
 /* header-div */
-.header > .header-div {
+header > .header-div {
   display: flex;
 }
 
 /* header-div container */
-.header.container {
+.container {
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0.15px;
 }
 
@@ -73,6 +73,12 @@ body {
 /* list */
 .list {
   list-style: none;
+  display: flex;
+}
+
+.header-nav-ul {
+  display: flex;
+  gap: 40px;
 }
 
 /* nav */
@@ -82,6 +88,8 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-list-studio:hover,
@@ -105,6 +113,10 @@ body {
 .adress-list:hover,
 .adress-list:focus {
   color: #404bbf;
+}
+
+.contacts-address-lists > .list {
+  gap: 40px;
 }
 
 /* filter buttons */
