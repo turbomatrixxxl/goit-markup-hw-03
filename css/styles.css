@@ -40,7 +40,7 @@ header > .header-div {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0.15px;
+  padding: 0 15px;
 }
 
 /* header-nav */
@@ -199,6 +199,7 @@ header > .header-div {
 /* hero section */
 .studio-main-hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 /* main title header */
@@ -208,6 +209,7 @@ header > .header-div {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffffff;
+  max-width: 496px;
 }
 
 /* hero button */
@@ -220,6 +222,11 @@ header > .header-div {
   line-height: 1.5;
   color: #ffffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .studio-hero-button:hover,
