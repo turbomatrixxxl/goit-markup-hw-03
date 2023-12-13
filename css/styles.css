@@ -239,12 +239,26 @@ header > .header-div {
 }
 
 /* first section */
+.studio-first-section {
+  padding: 120px 0;
+}
+
+.studio-first-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.studio-first-section-list-item {
+  flex-basis: calc((100%-3 * 24px) / 4);
+}
+
 .studio-first-section-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .studio-first-section-paragraph {
