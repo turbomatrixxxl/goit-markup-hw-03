@@ -297,8 +297,9 @@ header > .header-div {
   gap: 24px;
 }
 
-.studio-first-section-list-item {
+.list.studio-first-section-list-item {
   flex-basis: calc((100%-72px) / 4);
+  display: block;
 }
 
 .studio-first-section-subtitle {
