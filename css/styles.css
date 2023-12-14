@@ -125,7 +125,7 @@ header > .header-div {
   padding-bottom: 120px;
 }
 
-.portfolio-main-section h1 {
+.visualy-hidden {
   visibility: hidden;
 }
 
@@ -279,9 +279,6 @@ header > .header-div {
 }
 
 /* first section */
-.studio-first-section h2 {
-  visibility: hidden;
-}
 
 .studio-first-section {
   padding: 120px 0;
