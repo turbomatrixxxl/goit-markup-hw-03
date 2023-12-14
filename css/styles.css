@@ -294,11 +294,10 @@ header > .header-div {
 .studio-first-section-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100%-72px) / 4);
 }
 
 .studio-first-section-list-item {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .studio-first-section-subtitle {
