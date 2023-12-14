@@ -35,7 +35,7 @@ body {
 /* header-div */
 header > .header-div {
   display: flex;
-  padding: 0;
+  padding: 0 15px;
   justify-content: space-between;
 }
 
