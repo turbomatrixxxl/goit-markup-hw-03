@@ -176,7 +176,7 @@ header > .header-div {
 }
 
 .list.studio-first-section-list-item {
-  min-width: 264px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .studio-first-section-subtitle {
