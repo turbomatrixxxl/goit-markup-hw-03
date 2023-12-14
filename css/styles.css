@@ -298,8 +298,7 @@ header > .header-div {
 }
 
 .list.studio-first-section-list-item {
-  flex-basis: calc((100%-72px) / 4);
-  display: block;
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 
 .studio-first-section-subtitle {
